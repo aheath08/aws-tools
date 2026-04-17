@@ -13,6 +13,8 @@ venv/
 
 # Logs — keeps folders via .gitkeep, ignores runtime logs
 **/logs/*.log
+**/output/*.json
+**/output/*.txt
 
 # OS files
 .DS_Store
