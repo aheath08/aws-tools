@@ -10,6 +10,9 @@ Simulates uploading a file to a user defined bucket name. Takes user input to co
 ## Log Analyser
 Searches JSON file logs and based on cli user inputs will filter the results and optionally save the output.
 
+## IAM policy analyser 
+Takes a JSON IAM policy file and analyses it for security risks and policy breakdown. 
+
 ## Tech Used
 - argparse
 - logging
