@@ -55,7 +55,7 @@ python3 iam-policy-analyser.py --policy-path data/policies.json
 ```
 
 ## Example Output
-```bash
+```text
 IAM Policy Analyser
 ------------------------------
 Total policies: 3
