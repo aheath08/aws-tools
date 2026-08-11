@@ -7,7 +7,7 @@ Audits IAM users and reports on access key status and age, flagging keys older t
 ### IAM Password Auditor
 Audits IAM user passwords and flags by age severity with tiered warnings.
 
-## S3 Bucket Auditor
+### S3 Bucket Auditor
 Audits S3 Buckets and prints security report. Includes argparse option to ignore certain buckets based on keywords.
 
 ## Requirements
