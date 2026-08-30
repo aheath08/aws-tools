@@ -10,6 +10,9 @@ Audits IAM user passwords and flags by age severity with tiered warnings.
 ### S3 Bucket Auditor
 Audits S3 Buckets and prints security report. Includes argparse option to ignore certain buckets based on keywords.
 
+### Security Port Auditor
+Audits AWS security groups for certain ports open to CIDR range `0.0.0.0/0`, which could be seen as a security risk.
+
 ## Requirements
 - Python 3
 - boto3
