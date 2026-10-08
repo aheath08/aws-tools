@@ -13,6 +13,9 @@ Audits S3 Buckets and prints security report. Includes argparse option to ignore
 ### Security Port Auditor
 Audits AWS security groups for certain ports open to CIDR range `0.0.0.0/0`, which could be seen as a security risk.
 
+### VPC Security Auditr
+Audits VPC's in an account to see if any associated subnets have access to an internet gateway. Subnet will be flagged as `PUBLIC` if it does or otherwise `PRIVATE`.
+
 ## Requirements
 - Python 3
 - boto3

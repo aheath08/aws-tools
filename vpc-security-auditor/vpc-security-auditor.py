@@ -1,6 +1,5 @@
 from botocore.exceptions import ClientError, NoCredentialsError
 import boto3
-import json
 
 def ip_number(netmask):
     """Figures out available IP addresses from netmask"""
