@@ -1,0 +1,17 @@
+{
+    "logs": {
+        "logs_collected": {
+            "files": {
+                "collect_list": [
+                    {
+                        "file_path": "/home/ec2-user/log-project/server.log",
+                        "log_group_name": "cloudwatch-project-logs",
+                        "log_stream_name": "server-log-stream",
+                        "retention_in_days": 7
+                    }
+                ]
+            }
+        }
+    }
+}
+
