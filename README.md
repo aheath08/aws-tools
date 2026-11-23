@@ -16,6 +16,9 @@ Audits AWS security groups for certain ports open to CIDR range `0.0.0.0/0`, whi
 ### VPC Security Auditr
 Audits VPC's in an account to see if any associated subnets have access to an internet gateway. Subnet will be flagged as `PUBLIC` if it does or otherwise `PRIVATE`.
 
+### CloudWatch Log Pipeline
+A small end to end CloudWatch pipeline that generates random simulated application log entries, Cloudwatch Agent sends them to CloudWatch Logs and a separate boto3 script pulls recent events back out and reports on severity and most recent errors.
+
 ## Requirements
 - Python 3
 - boto3
